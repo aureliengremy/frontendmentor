@@ -6,8 +6,8 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+  - ~~[Screenshot](#screenshot)~~
+  - ~~[Links](#links)~~
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
