@@ -25,7 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![interactiveRatingChallenge](https://user-images.githubusercontent.com/25286237/230496524-2f86a0ca-1793-4d78-8036-6fe7473db19b.png)
+
 
 ### Links
 
