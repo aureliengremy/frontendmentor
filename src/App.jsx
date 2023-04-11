@@ -19,12 +19,10 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/challenge" element={<Challenge />} />
         <Route exact path="/challenge/:challenge" element={<Challenge/>} />
-        <Route exact path="/challenge/form" element={<Challenge/>} />
-        <Route exact path="/challenge/qrcode" element={<Challenge/>} />
         {/* {listOfChallenges.map((challenge, index) => (
           <Route key={index} exact path={`/challenge/:${challenge}`} element={<Challenge/>} />
           ))} */}
-        <Route path="/challenge/*" element={<Challenge />} />
+        {/* <Route path="/challenge/*" element={<Challenge />} /> */}
         <Route path="*" element={<Home />} />
       </Routes>
     </div>
