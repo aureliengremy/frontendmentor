@@ -7,19 +7,10 @@ import {
   useLocation
 } from 'react-router-dom';
 import Challenge from './pages/Challenge';
-import listOfChallenges from './Components/whichChallenge'
+
 
 function App() {
 
-  const location = useLocation();
-
-  useEffect(() => {
-    document.querySelector('html').style.scrollBehavior = 'auto'
-    window.scroll({ top: 0 })
-    document.querySelector('html').style.scrollBehavior = ''
-  }, [location.pathname]); // triggered on route change
- 
-  console.log(location);
   // TODO: const with array of all challenges to send a list for the footer and maybe the AllChallenges components 
   
   return (

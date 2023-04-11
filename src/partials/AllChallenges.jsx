@@ -47,11 +47,9 @@ function AllChallenges() {
                   </Link>
                 </div>
                 <div className="grow text-center">
-                <Link  to='/challenge' state="form"
-                    className="font-cabinet-grotesk font-bold text-gray-100 hover:text-blue-500 transition duration-150 ease-in-out"
-                    
+                <Link  to='/challenge/form' className="font-cabinet-grotesk font-bold text-gray-100 hover:text-blue-500 transition duration-150 ease-in-out"
                   >
-                    System Design
+                    Interactive Rating Form
                   </Link>
                 </div>
               </div>
@@ -70,11 +68,10 @@ function AllChallenges() {
                   </Link>
                 </div>
                 <div className="grow text-center">
-                <Link  to='/challenge' state="qrcode"
-                    className="font-cabinet-grotesk font-bold text-gray-100 hover:text-blue-500 transition duration-150 ease-in-out"
+                <Link  to='/challenge/qrcode' className="font-cabinet-grotesk font-bold text-gray-100 hover:text-blue-500 transition duration-150 ease-in-out"
                     
                   >
-                    Remote Team
+                    QR Code generator
                   </Link>
                 </div>
               </div>
