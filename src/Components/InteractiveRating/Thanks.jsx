@@ -5,7 +5,7 @@ import Phone from '../../assets/images/illustration-thank-you.svg'
 const Thanks = ({selectedRate}) => {
   return (
     <div className={style.panel}>
-        <img src={Phone} alt="" />
+        <img className={style.thanks_img} src={Phone} alt="" />
         <div className={style.thanks_top_text}>
           <p>You selected {selectedRate} out of 5</p>
         </div>

@@ -22,7 +22,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
   border-radius: 50%;
   background-color: var(--neutral-dark-blue);
 }
@@ -32,19 +33,25 @@
 }
 .title {
     font-size: 2rem;
+    color: var(--neutral-white);
 }
 .text {
     color: var(--neutral-light-grey);
 }
-
+.thanks_img {
+  margin: auto;
+  padding-bottom: 15px;
+}
 .thanks_title {
     font-size: 2rem;
     text-align: center;
+    color: var(--neutral-white);
 }
 .thanks_top_text {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    padding: 15px 0;
 }
 .thanks_top_text p {
     line-height: initial;
@@ -58,6 +65,7 @@
 .thanks_text {
     text-align: center;
     color: var(--neutral-light-grey);
+    margin-bottom: 10px;
 }
 
 .grouprates {
