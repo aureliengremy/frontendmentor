@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 import Illustration from '../assets/images/footer-illustration.svg';
 import SocialFooter from './SocialFooter';
+// import {listOfChallenges} from '../Components/whichChallenge'
 
 function Footer() {
   return (
@@ -16,10 +17,10 @@ function Footer() {
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Blocks */}
-        <div className="grid sm:grid-cols-12 lg:grid-cols-10 gap-8 py-8 border-t border-blue-500">
-          {/* 1st block */}
-          <div className="sm:col-span-12 lg:col-span-2 lg:max-w-xs">
-            {/* Logo */}
+        <div className="grid sm:grid-cols-12 lg:grid-cols-10 gap-8 pt-8 border-t border-blue-500">
+          
+          {/* <div className="sm:col-span-12 lg:col-span-2 lg:max-w-xs">
+            
             <Link className="block group" to="/" aria-label="Cruip">
               <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -34,15 +35,19 @@ function Footer() {
             </Link>
           </div>
 
-          {/* 2nd block */}
+          
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-xs text-gray-100 font-bold uppercase mb-3">Essentials</h6>
+            <h6 className="text-xs text-gray-100 font-bold uppercase mb-3">Challenges</h6>
             <ul className="text-sm space-y-2">
-              <li>
-                <a className="text-blue-300 hover:text-white transition duration-150 ease-in-out" href="#0">
-                  Challenge#1
-                </a>
-              </li>
+              {listOfChallenges.map((challenge, index) => ( 
+                <li>
+                  <Link className="text-blue-300 hover:text-white transition duration-150 ease-in-out" to={`/challenge/${challenge}`}>
+                    {`Challenge ${challenge}`}
+                  </Link>
+                </li>
+              ))}
+
+              OR 
               <li>
                 <a className="text-blue-300 hover:text-white transition duration-150 ease-in-out" href="#0">
                   Challenge#2
@@ -64,12 +69,7 @@ function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
-
-          
-
-        
-          
+          </div> */}
         </div>
         <SocialFooter/>
       </div>

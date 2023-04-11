@@ -23,7 +23,7 @@ function Hero() {
             <h1 className="text-6xl font-extrabold font-cabinet-grotesk text-white mb-2" data-aos="fade-up">
               My FrontendMentor Challenges
             </h1>
-            <p className="text-md md:text-xl text-white text-opacity-80" data-aos="fade-up" data-aos-delay="100">
+            <p className="text-md md:text-xl text-white text-opacity-80 mb-8" data-aos="fade-up" data-aos-delay="100">
               {`Ce site répertorie l'ensemble des challenges réalisés par `}
               <Link className="text-md md:text-xl underline underline-offset-2 text-white text-opacity-80" to="https://www.linkedin.com/in/aureliengremy/" >
               moi-même
@@ -31,9 +31,6 @@ function Hero() {
             {` pour FrontendMentor.`}
             </p>
             
-            <p className='text-md md:text-xl text-white text-opacity-80 mb-8'>
-              
-            </p>
             <div data-aos="fade-up" data-aos-delay="200">
               <Link className="btn inline-flex items-center text-white bg-gray-900 hover:bg-gray-800 group" to="https://aureliengremy.com">
                 Consulter mon Portfolio

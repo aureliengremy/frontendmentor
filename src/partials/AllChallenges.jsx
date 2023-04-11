@@ -14,7 +14,7 @@ function AllChallenges() {
           <div className="relative">
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-              <h2 className="h2 font-cabinet-grotesk text-gray-100">
+              <h2 className="text-2xl font-cabinet-grotesk text-gray-100">
                 Voici la liste des Challenges réalisés :
               </h2>
             </div>
@@ -36,7 +36,7 @@ function AllChallenges() {
                       alt="Item 01"
                     />
                   </Challenge> */}
-                  <Link className="block group overflow-hidden" to='/challenge' state="form">
+                  <Link className="block group overflow-hidden" to='/challenge/form'>
                     <img
                       className="w-full aspect-[101/64] object-cover group-hover:scale-105 transition duration-700 ease-out"
                       src="https://placehold.co/404x256"
@@ -59,7 +59,7 @@ function AllChallenges() {
               <div className="h-full flex flex-col">
                 {/* Image */}
                 <div className="mb-4">
-                <Link className="block group overflow-hidden" to='/challenge' state="qrcode">
+                <Link className="block group overflow-hidden" to='/challenge/qrcode' state="qrcode">
                     <img
                       className="w-full aspect-[101/64] object-cover group-hover:scale-105 transition duration-700 ease-out"
                       src="https://placehold.co/404x256"
