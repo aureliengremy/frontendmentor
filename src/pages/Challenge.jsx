@@ -8,6 +8,7 @@ import AllChallenges from "../partials/AllChallenges";
 // import SocialFooter from "../partials/SocialFooter";
 import { whichChallenge } from "../Components/whichChallenge";
 import { useParams } from "react-router-dom";
+import Footer from "../partials/Footer";
 
 const Challenge = (props) => {
   // const location = useLocation();
@@ -28,10 +29,12 @@ const Challenge = (props) => {
   );
 
   return (
-    <div>
+    <>
       <Header />
       <Cta path="/" />
-      {whichChallenge(challenge) ? whichChallenge(challenge) : noChallenge}
+      <div className="max-w-6xl mx-auto p-4 sm:p-6 h-full">
+        {whichChallenge(challenge) ? whichChallenge(challenge) : noChallenge}
+      </div>
       {/* {props.children ? props.children : (
         <>
           <p className="text-md md:text-xl text-center text-opacity-80 mx-auto my-24">Il s'emble que le challenge ne soit pas disponible 🥺</p>
@@ -39,7 +42,8 @@ const Challenge = (props) => {
         </>
       )} */}
       {/* <SocialFooter/> */}
-    </div>
+      <Footer/>
+    </>
   );
 };
 

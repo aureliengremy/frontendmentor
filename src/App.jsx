@@ -21,7 +21,7 @@ function App() {
   // TODO: const with array of all challenges to send a list for the footer and maybe the AllChallenges components 
   
   return (
-    <>
+    <div className='flex flex-col min-h-screen justify-start'>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/challenge" element={<Challenge />} />
@@ -32,7 +32,7 @@ function App() {
         {/* <Route path="/challenge/*" element={<Challenge />} /> */}
         <Route path="*" element={<Home />} />
       </Routes>
-    </>
+    </div>
   )
 }
 

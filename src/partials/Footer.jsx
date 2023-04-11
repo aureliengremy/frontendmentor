@@ -6,7 +6,7 @@ import SocialFooter from './SocialFooter';
 
 function Footer() {
   return (
-    <footer className="relative">
+    <footer className="relative mt-auto">
       {/* Bg */}
       <div className="absolute inset-0 bg-blue-600 -z-10" aria-hidden="true" />
 
