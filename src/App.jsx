@@ -7,6 +7,7 @@ import {
   useLocation
 } from 'react-router-dom';
 import Challenge from './pages/Challenge';
+import listOfChallenges from './Components/whichChallenge'
 
 function App() {
 
@@ -29,7 +30,7 @@ function App() {
         {/* {listOfChallenges.map((challenge, index) => (
           <Route key={index} exact path={`/challenge/:${challenge}`} element={<Challenge/>} />
           ))} */}
-        {/* <Route path="/challenge/*" element={<Challenge />} /> */}
+        <Route path="/challenge/*" element={<Challenge />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </div>
