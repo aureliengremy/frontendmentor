@@ -1,6 +1,16 @@
-#root {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=fallback');
+@import './styles/custom-fonts.css';
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 1rem;
   text-align: center;
-}
+} */
